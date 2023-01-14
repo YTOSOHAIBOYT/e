@@ -19,7 +19,7 @@ local key = Window:NewTab("Key")
 local MainSection = key : NewSection("Key")
 
 MainSection:NewTextBox("Key", "", function(txt)
-    if txt == "9cb4cdbc110986b5c944c295d80641dbfd7fe923"
+    if txt == Key
     
     then
 
