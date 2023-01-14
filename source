@@ -1,0 +1,31 @@
+--key system
+local Library2 = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+
+local key = "9cb4cdbc110986b5c944c295d80641dbfd7fe923"
+
+
+
+local colors = {
+    SchemeColor = Color3.fromRGB(0,0,255),
+    Background = Color3.fromRGB(0, 0, 90),
+    Header = Color3.fromRGB(0, 50, 50),
+    TextColor = Color3.fromRGB(0,100,100),
+    ElementColor = Color3.fromRGB(20, 20, 20)
+}
+
+local Window = Library2.CreateLib("S_Core Gui", colors)
+
+local key = Window:NewTab("Key")
+local MainSection = key : NewSection("Key")
+
+MainSection:NewTextBox("Key", "", function(txt)
+    if txt == "9cb4cdbc110986b5c944c295d80641dbfd7fe923"
+    
+    then
+
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/YTOSOHAIBOYT/S_CORE-GUI/19c2a1cc029c7b2052746b9386cf21ac9961eba3/source"))()
+else
+    txt = "Wrong Key!"
+end
+
+end)
