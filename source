@@ -1,7 +1,7 @@
 --key system
 local Library2 = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 
-local key = "9cb4cdbc110986b5c944c295d80641dbfd7fe923"
+loadstring(gane:HttpGet("https://raw.githubusercontent.com/YTOSOHAIBOYT/3/main/Key"))()
 
 
 
